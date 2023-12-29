@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-full-stack",
+  "name": "personal-website",
   "version": "1.0.0",
-  "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack.",
+  "description": "A full stack personal website web application using React, Node.js, Express and Webpack.",
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -10,13 +10,19 @@
     "server": "nodemon src/server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Sandeep Raveesh",
-  "license": "ISC",
+  "keywords": [
+    "Divyang",
+    "Website"
+  ],
+  "author": "Divyang Mittal",
+  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "express": "^4.16.3",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-icons": "4.12.0",
+    "url-loader": "4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
